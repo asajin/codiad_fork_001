@@ -41,7 +41,8 @@
         'python',
         'ruby',
         'jade',
-        'text'
+        'text',
+        'java'
     );
 
     function SplitContainer(root, children, splitType) {
