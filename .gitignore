@@ -1,0 +1,8 @@
+*~
+*\#
+*.swp
+config.php
+data/
+workspace/
+.project
+nbproject
