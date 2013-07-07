@@ -1,10 +1,4 @@
-Codiad Fork
-============
-
-Fork from codiad project in order to integrate git support and fix some of issues
-
-Codiad Web IDE
-============
+# Codiad Web IDE
 
 Codiad is a web-based IDE framework with a small footprint and minimal requirements. The system is still early in development, and while it has been proven extremely stable please be sure have a backup system if you use it in any production work.
 

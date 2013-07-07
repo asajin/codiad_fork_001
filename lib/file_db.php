@@ -99,8 +99,7 @@ class file_db {
             $entry_file = $base_path . '/' . $entry_hash;
             
             if(file_exists($entry_file)) {
-                $file_db = new file_db_entry($entry_name, $entry_file, $index_file, $group);
-                return $file_db; 
+                return new file_db_entry($entry_name, $entry_file, $index_file, $group);
             }
             return $this->null_ref;
         }

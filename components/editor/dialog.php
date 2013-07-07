@@ -20,31 +20,6 @@ checkSession();
 
 switch($_GET['action']){
 
-    case 'commit':
-      
-      ?>
-        <table class="commit">
-          <tr>
-            <td>
-              <textarea>adfasdf</textarea>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span id="commit_files">
-              </span>
-            </td>
-          </tr>
-        </table>
-      
-      <button class="btn-right" onclick="codiad.modal.unload(); return false;"><?php i18n("Cancel"); ?></button>
-      <button class="btn-left" onclick="return false;"><?php i18n("Commit"); ?></button>
-      
-      <script>
-        codiad.git.status();
-      </script>
-      <?php
-    break;
     //////////////////////////////////////////////////////////////////
     // Find & Replace
     //////////////////////////////////////////////////////////////////

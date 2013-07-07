@@ -96,12 +96,6 @@
         "onclick": null
     },
     {
-        "title": "Commit",
-        "icon": "icon-upload",
-        "applies-to" : "directory-only",
-        "onclick": "codiad.git.commit($('#context-menu').attr('data-path'));"
-    },
-    {
         "title": "Rescan",
         "icon": "icon-arrows-ccw",
         "applies-to" : "directory-only",
